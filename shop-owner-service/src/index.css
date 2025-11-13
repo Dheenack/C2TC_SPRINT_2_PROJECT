@@ -1,0 +1,121 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: url("./assets/gotham.jpg");
+  background-size: cover;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.input-field {
+  background-color: #f9f9f9;
+  padding: 10px;
+  font-size:large;
+  border-radius: 10px;
+}
+.input-field:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  text-align: center;
+  color: #ffffff  ;
+  line-height: 1.1;
+  /* background-color: #f9f9f979; */
+}
+
+h2{
+  font-size: 2.2em;
+  text-align: center;
+  color: #fffb00  ;
+  /* background-color: #f9f9f979; */
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px;
+}
+button:hover {
+  border-color: #646cff;
+  color: #535bf2;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.form-objects{
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column; 
+  height: 70vh;
+  justify-content: center;
+  padding: 20px;
+} 
+
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card{
+  background-color: #6d83ffa0;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
