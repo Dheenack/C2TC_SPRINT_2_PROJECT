@@ -10,7 +10,7 @@
 
   color: rgba(255, 255, 255, 0.87);
   background: url("./assets/gotham.jpg");
-  background-size: cover;
+  background-size: cover; 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

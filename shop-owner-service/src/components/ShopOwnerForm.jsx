@@ -67,7 +67,7 @@ const handleSubmit = async (e)=>{
   return (
     <div
     >
-        <h2>{editingShopOwner?"edit shop owner":"add shop owner"}</h2>
+        <h2>{editingShopOwner?"Edit shop owner":"Add shop owner"}</h2>
         
         <form 
         className='form-objects'

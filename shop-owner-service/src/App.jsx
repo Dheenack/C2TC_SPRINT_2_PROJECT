@@ -1,12 +1,12 @@
 import { useState,useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 //import './App.css'
 import ShopOwnerForm from './components/ShopOwnerForm'
 import ShopOwnerList from './components/ShopOwnerList'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
   const [shopOwners,SetShopOwners] = useState([]);
   const [editingShopOwner,setEditingShopOwner] = useState(null);
 
